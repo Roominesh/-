@@ -46,3 +46,11 @@ body{font-size:14px}.brand strong{font-size:15px}.brand small{font-size:8px}.mai
 .empty-icon{font-size:10px}.empty-state h3{font-size:22px}.empty-state p{font-size:11px}.order-top h3{font-size:22px}.order-top p{font-size:10px}.order-top>strong{font-size:17px}.order-meta span{font-size:9px}.order-meta b{font-size:8px}.tracker-head h3{font-size:16px}.eta-badge span{font-size:8px}.track b{font-size:11px}.track small{font-size:10px}.ready-note,.cancelled-note,.eta-note{font-size:10px}.modal-content h2{font-size:28px}.modal-content>p{font-size:12px}.mini-tag{font-size:9px}.confirm-card p{font-size:11px}.toast{font-size:12px}.toast-copy small{font-size:10px}.toast-link{font-size:11px}footer p,footer span{font-size:10px}
 @media(max-width:720px){.brand strong{font-size:13px}.brand small{font-size:7px}.main-nav a{font-size:10px}.hero h1{font-size:56px}.hero p{font-size:13px}.btn{font-size:10px}.page-title h1{font-size:40px}.food-info h3{font-size:12px}.food-info p{font-size:10px}.add-small{font-size:10px}.order-top h3{font-size:19px}.track b{font-size:11px}}
 @media(max-width:480px){.hero h1{font-size:48px}.hero p{font-size:12px}.float-card{font-size:10px}.float-card b{font-size:10px}.float-card small{font-size:9px}.info-banner{font-size:11px}.food-info h3{font-size:11px}.food-info p{font-size:10px}.price{font-size:14px}.panel h2{font-size:22px}.order-top h3{font-size:18px}.summary-row{font-size:11px}}
+
+@media(min-width:981px){
+	body:has(.hero){overflow:hidden}
+	body:has(.hero) .hero{min-height:calc(100vh - var(--header-height) - 118px);padding:38px 30px 32px}
+	body:has(.hero) .hero-art{min-height:360px}
+	body:has(.hero) .hero-note{margin-bottom:18px}
+	body:has(.hero) footer{padding-top:18px;padding-bottom:18px}
+}
