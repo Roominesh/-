@@ -49,3 +49,14 @@ body{font-size:14px}
 .modal-content h2{font-size:28px}.modal-content>p{font-size:12px}.modal-price-row>strong{font-size:20px}.confirm-card h2{font-size:24px}.confirm-card p{font-size:11px}.toast{font-size:11px}
 @media(max-width:720px){.brand strong{font-size:12px}.hero h1{font-size:56px}.page-title h1{font-size:38px}.section-heading h2{font-size:32px}.order-top h3{font-size:19px}}
 @media(max-width:480px){.hero h1{font-size:48px}.page-title h1{font-size:36px}.food-info h3{font-size:11px}.food-info p{font-size:9px}.price{font-size:14px}.add-small{font-size:9px}.order-top h3{font-size:18px}}
+
+/* Smaller reading scale */
+body{font-size:13px}
+.brand strong{font-size:14px}.brand small{font-size:7px}.main-nav a{font-size:10px}.open-pill,.cart-button{font-size:9px}
+.hero h1{font-size:60px}.hero p{font-size:13px}.hero-meta{font-size:8px}.float-card,.float-card b{font-size:9px}.float-card small{font-size:8px}.info-banner{font-size:10px}
+.page-title h1{font-size:40px}.page-title p{font-size:11px}.menu-status,.search-box input,.result-heading{font-size:10px}.category{font-size:9px}.feature-card b{font-size:10px}.feature-card small{font-size:8px}.food-info h3{font-size:12px}.food-info p{font-size:10px}.price{font-size:15px}.add-small{font-size:9px}
+.panel h2{font-size:21px}.cart-page-line h3{font-size:12px}.cart-page-line p,.line-actions button{font-size:8px}.summary-row{font-size:10px}.summary-total{font-size:14px}.summary-note{font-size:8px}.form-grid label{font-size:9px}.form-grid input,.form-grid select{font-size:10px}
+.empty-state h3{font-size:20px}.empty-state p{font-size:10px}.order-top h3{font-size:19px}.order-top p{font-size:9px}.order-top>strong{font-size:16px}.order-meta span{font-size:8px}.tracker-head h3{font-size:15px}.eta-badge b{font-size:16px}.tracking b{font-size:10px}.tracking small{font-size:8px}.order-actions{font-size:9px}
+.modal-content h2{font-size:25px}.modal-content>p{font-size:11px}.modal-price-row>strong{font-size:19px}.confirm-card h2{font-size:22px}.confirm-card p{font-size:10px}.toast{font-size:10px}
+@media(max-width:720px){.brand strong{font-size:11px}.hero h1{font-size:50px}.page-title h1{font-size:34px}.section-heading h2{font-size:29px}.order-top h3{font-size:17px}}
+@media(max-width:480px){.hero h1{font-size:43px}.page-title h1{font-size:32px}.food-info h3{font-size:10px}.food-info p{font-size:8px}.price{font-size:13px}.add-small{font-size:8px}.order-top h3{font-size:16px}}
