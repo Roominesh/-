@@ -38,3 +38,14 @@ body{background:var(--cream);color:#3E2922;background-image:radial-gradient(circ
 footer{background:var(--green);color:var(--cream);border-top:4px solid var(--gold);position:relative}footer::before{content:"";position:absolute;left:0;right:0;top:-10px;height:6px;background:radial-gradient(circle at 6px 6px,var(--gold) 0 5px,transparent 5.5px);background-size:12px 6px}footer p,footer span{color:#eadcae}
 @keyframes steam-float{0%,100%{transform:translateY(0);opacity:.22}50%{transform:translateY(-12px);opacity:.45}}@keyframes ornament-drift{0%,100%{transform:rotate(-3deg) translateY(0)}50%{transform:rotate(3deg) translateY(8px)}}
 @media(max-width:720px){.brand{gap:4px}.brand-elephant{width:27px;height:32px;flex-basis:27px}.brand strong{font-size:13px}.brand small{font-size:7px;letter-spacing:.08em}}
+
+/* Compact typography across all pages */
+body{font-size:14px}
+.brand strong{font-size:15px}.brand small{font-size:8px}.main-nav a{font-size:11px}.open-pill,.cart-button{font-size:10px}
+.hero h1{font-size:68px}.hero p{font-size:14px}.hero-meta{font-size:9px}.float-card,.float-card b{font-size:10px}.float-card small{font-size:9px}.info-banner{font-size:11px}
+.page-title h1{font-size:46px}.page-title p{font-size:12px}.menu-status,.search-box input,.result-heading{font-size:11px}.category{font-size:10px}.feature-card b{font-size:11px}.feature-card small{font-size:9px}.food-info h3{font-size:13px}.food-info p{font-size:11px}.price{font-size:16px}.add-small{font-size:10px}
+.panel h2{font-size:23px}.cart-page-line h3{font-size:13px}.cart-page-line p,.line-actions button{font-size:9px}.summary-row{font-size:11px}.summary-total{font-size:15px}.summary-note{font-size:9px}.form-grid label{font-size:10px}.form-grid input,.form-grid select{font-size:11px}
+.empty-state h3{font-size:22px}.empty-state p{font-size:11px}.order-top h3{font-size:21px}.order-top p{font-size:10px}.order-top>strong{font-size:17px}.order-meta span{font-size:9px}.tracker-head h3{font-size:16px}.eta-badge b{font-size:17px}.tracking b{font-size:11px}.tracking small{font-size:9px}.order-actions{font-size:10px}
+.modal-content h2{font-size:28px}.modal-content>p{font-size:12px}.modal-price-row>strong{font-size:20px}.confirm-card h2{font-size:24px}.confirm-card p{font-size:11px}.toast{font-size:11px}
+@media(max-width:720px){.brand strong{font-size:12px}.hero h1{font-size:56px}.page-title h1{font-size:38px}.section-heading h2{font-size:32px}.order-top h3{font-size:19px}}
+@media(max-width:480px){.hero h1{font-size:48px}.page-title h1{font-size:36px}.food-info h3{font-size:11px}.food-info p{font-size:9px}.price{font-size:14px}.add-small{font-size:9px}.order-top h3{font-size:18px}}
